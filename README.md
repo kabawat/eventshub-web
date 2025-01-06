@@ -13,7 +13,7 @@ bun dev
 ```
 
 
-# .env files 
+# .env.local file
 
 ```
 NEXT_PUBLIC_ENVIRONMENT=development
