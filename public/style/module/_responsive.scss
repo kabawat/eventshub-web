@@ -1,0 +1,228 @@
+@media (max-width:1200px) {
+    .menu_bar {
+        padding: 1rem 3rem;
+    }
+
+    .overview_box {
+        padding: 1rem;
+    }
+
+    .overview_logo {
+        width: 45px;
+    }
+
+    .icon {
+        width: 22px;
+        height: 22px;
+    }
+
+    .overview_heading {
+        font-size: 15px;
+    }
+
+    .overview_number {
+        font-size: 28px;
+    }
+
+    .grap_dtl {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .menu_bar {
+        padding: 1rem 3rem;
+    }
+
+    .overview_box_cvr {
+        width: 50%;
+    }
+
+    .tbl_cvr {
+        max-height: 100vh;
+    }
+
+    .right {
+        padding-right: 10px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .inp {
+        width: 100%;
+    }
+
+    .save-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width:670px) {
+    .logo {
+        font-size: 18px;
+    }
+
+    .navigation {
+        gap: 2px;
+    }
+
+    .page {
+        padding: 8px 18px;
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .profile {
+        width: 30px;
+        height: 30px;
+    }
+
+    .username {
+        font-size: 12px;
+    }
+
+    .categ {
+        font-size: 11px;
+        line-height: 1;
+    }
+}
+
+@media (max-width:550px) {
+    .left {
+        gap: 1px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .right {
+        padding-right: 0px;
+    }
+
+    .navigation {
+        gap: 1px;
+    }
+
+    .page {
+        padding: 6px 16px;
+        gap: 3px;
+        font-size: 8px;
+    }
+
+    .profile {
+        width: 20px;
+        height: 20px;
+    }
+
+    .username {
+        font-size: 10px;
+    }
+
+    .categ {
+        font-size: 9px;
+        line-height: 1;
+    }
+
+    .page {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navigation {
+        gap: 1px;
+    }
+
+    .page {
+        padding: 6px 16px;
+        gap: 3px;
+        font-size: 8px;
+    }
+
+    .profile {
+        width: 20px;
+        height: 20px;
+    }
+
+    .username {
+        font-size: 8px;
+    }
+
+    .categ {
+        font-size: 8px;
+        line-height: 1;
+    }
+}
+
+@media (max-width:480px) {
+    .menu_bar {
+        padding: 1rem 2rem;
+    }
+
+    .overview_box_cvr {
+        width: 100%;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    .add-event {
+        padding-top: 40px;
+    }
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .page {
+        padding: 5px;
+    }
+
+    .title {
+        font-size: 14px;
+    }
+
+    .input {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .save-btn {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 363px) {
+    .logo {
+        font-size: 15px;
+    }
+
+    .navigation .page svg {
+        display: none;
+    }
+
+    .profile {
+        width: 18px;
+        height: 18px;
+    }
+
+    .username {
+        font-size: 6px;
+    }
+
+    .right {
+        gap: 3px;
+    }
+}
