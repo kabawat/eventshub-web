@@ -30,17 +30,17 @@ const EventPage = ({ id }) => {
             <Header />
             <div className="dashboard_cvr">
                 <Container>
-                    <div className="d-flex justify-content-between align-items-center pt-3">
-                        <div className="text-warning fw-bold heading">Events</div>
-                        <div className="page" onClick={() => setIsEdit(!isEdit)} >
-                            <BiEdit />
-                            <span>Edit Events</span>
-                        </div>
-                    </div>
                 </Container>
                 <Container>
+                    <h2 className="text-warning fw-bold text-center mt-3">Events Detailes</h2>
                     <div className="event-container">
-                        <h1 className="event-title">{eventData?.title}</h1>
+                        <div className="d-flex justify-content-between align-items-center">
+                            <h2 className="event-title">{eventData?.title}</h2>
+                            <div className="page" onClick={() => setIsEdit(!isEdit)} >
+                                <BiEdit />
+                                <span>Edit Events</span>
+                            </div>
+                        </div>
                         <div className="event-details">
                             <div className="event-detail">
                                 <strong>Location:</strong> {eventData?.location}
@@ -65,7 +65,7 @@ const EventPage = ({ id }) => {
                             {
                                 users?.map((user, index) => (
                                     <Col key={index} sm={6} xs={12}>
-                                        <div className="card p-3">
+                                        <div className="card p-3 mt-2">
                                             <div className="event-detail"><strong>Name : </strong> {user.fullname}</div>
                                             <div className="event-detail"><strong>Email : </strong> {user.email}</div>
                                         </div>
